@@ -1,0 +1,27 @@
+﻿<Window x:Class="KunWin.Project2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KunWin"
+        mc:Ignorable="d"
+        Title="Project2" Height="450" Width="800">
+    <Grid>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="181" Margin="10,65,0,0" Stroke="Black" VerticalAlignment="Top" Width="773"/>
+
+        <Label Content="My COM" FontSize="18" HorizontalAlignment="Left" Margin="41,85,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="ComA" Click="ComA_Click" Content="Add" FontSize="18" HorizontalAlignment="Left" Margin="56,122,0,0" VerticalAlignment="Top" Width="87" Height="26" RenderTransformOrigin="0.153,-0.713"/>
+        <Button x:Name="ComS" Click="ComS_Click" Content="Substract" FontSize="18" HorizontalAlignment="Left" Margin="195,121,0,0" VerticalAlignment="Top" Width="106" Height="27"/>
+        <Label Content="Value1:" FontSize="18" HorizontalAlignment="Left" Margin="54,171,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="Value1" FontSize="18" HorizontalAlignment="Left" Height="33" Margin="134,171,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="ComOperation" Content="Do" FontSize="18" HorizontalAlignment="Left" Margin="280,172,0,0" VerticalAlignment="Top"/>
+        <Label Content="Value2:" FontSize="18" HorizontalAlignment="Left" Margin="335,172,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="Value2" FontSize="18" HorizontalAlignment="Left" Height="33" Margin="413,171,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Result:" FontSize="18" HorizontalAlignment="Left" Margin="565,171,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="ComResult"  Content="0" FontSize="18" HorizontalAlignment="Left" Margin="643,171,0,0" VerticalAlignment="Top"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="129" Margin="10,274,0,0" Stroke="Black" VerticalAlignment="Top" Width="773"/>
+        <Button Name="Word" Click="Word_Click"  Content="Word" FontSize="30" HorizontalAlignment="Left" Margin="301,309,0,0" VerticalAlignment="Top" Width="198" Height="70"/>
+        <Button Name="btn_Exit" Content="Exit" Click="Btn_Exit_Click" HorizontalAlignment="Left" Margin="708,10,0,0" VerticalAlignment="Top" Width="75"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,6 @@
+D:\Documents\Visual Stdio Workplace\MyCOM\bin\Debug\MyCOM.dll
+D:\Documents\Visual Stdio Workplace\MyCOM\bin\Debug\MyCOM.pdb
+D:\Documents\Visual Stdio Workplace\MyCOM\obj\Debug\MyCOM.csprojAssemblyReference.cache
+D:\Documents\Visual Stdio Workplace\MyCOM\obj\Debug\MyCOM.csproj.CoreCompileInputs.cache
+D:\Documents\Visual Stdio Workplace\MyCOM\obj\Debug\MyCOM.dll
+D:\Documents\Visual Stdio Workplace\MyCOM\obj\Debug\MyCOM.pdb

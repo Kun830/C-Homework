@@ -1,0 +1,9 @@
+D:\Documents\Visual Stdio Workplace\CsharpDLL\bin\Debug\netstandard2.0\CsharpDLL.deps.json
+D:\Documents\Visual Stdio Workplace\CsharpDLL\bin\Debug\netstandard2.0\CsharpDLL.dll
+D:\Documents\Visual Stdio Workplace\CsharpDLL\bin\Debug\netstandard2.0\CsharpDLL.pdb
+D:\Documents\Visual Stdio Workplace\CsharpDLL\obj\Debug\netstandard2.0\CsharpDLL.csprojAssemblyReference.cache
+D:\Documents\Visual Stdio Workplace\CsharpDLL\obj\Debug\netstandard2.0\CsharpDLL.csproj.CoreCompileInputs.cache
+D:\Documents\Visual Stdio Workplace\CsharpDLL\obj\Debug\netstandard2.0\CsharpDLL.AssemblyInfoInputs.cache
+D:\Documents\Visual Stdio Workplace\CsharpDLL\obj\Debug\netstandard2.0\CsharpDLL.AssemblyInfo.cs
+D:\Documents\Visual Stdio Workplace\CsharpDLL\obj\Debug\netstandard2.0\CsharpDLL.dll
+D:\Documents\Visual Stdio Workplace\CsharpDLL\obj\Debug\netstandard2.0\CsharpDLL.pdb

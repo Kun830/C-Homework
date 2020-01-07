@@ -1,0 +1,22 @@
+﻿<Window x:Class="KunWin.Project3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KunWin"
+        mc:Ignorable="d"
+        Title="Project3" Height="450" Width="800">
+    <Grid>
+        <Button Name="StartCmd" Click="StartCmd_Click" Content="StartCmd" FontSize="18" HorizontalAlignment="Left" Margin="10,31,0,0" VerticalAlignment="Top" Width="101"/>
+        <Button Name="PipeBegin" Click="PipeBegin_Click" FontSize="18" Content="PipeBegin" HorizontalAlignment="Left" Margin="389,31,0,0" VerticalAlignment="Top" Width="101" Height="24"/>
+        <TextBox Name="CmdOut" HorizontalAlignment="Left" Height="334" Margin="10,87,0,-0.333" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="343"/>
+        <TextBox Name="CmdIn" HorizontalAlignment="Left" FontSize="18" Height="24" Margin="116,31,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="237"/>
+        <TextBox Name="Client" HorizontalAlignment="Left" Height="104" Margin="389,115,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="305"/>
+        <TextBox Name="Server" HorizontalAlignment="Left" Height="166" Margin="389,255,0,-0.333" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="305"/>
+        <Button Name="Send" Click="Send_Click" FontSize="18" Content="Send" HorizontalAlignment="Left" Margin="516,31,0,0" VerticalAlignment="Top" Width="85" Height="24"/>
+        <Label Content="Client:" HorizontalAlignment="Left" Margin="389,87,0,0" VerticalAlignment="Top"/>
+        <Label Content="Server:" HorizontalAlignment="Left" Margin="389,230,0,0" VerticalAlignment="Top"/>
+        <Button Name="btn_Exit" Content="Exit" Click="Btn_Exit_Click" HorizontalAlignment="Left" Margin="708,10,0,0" VerticalAlignment="Top" Width="75"/>
+
+    </Grid>
+</Window>

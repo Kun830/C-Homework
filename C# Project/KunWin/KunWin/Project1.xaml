@@ -1,0 +1,46 @@
+﻿<Window x:Class="KunWin.Project1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KunWin"
+        mc:Ignorable="d"
+        Title="Project1" Height="450" Width="800">
+    <Grid>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="68" Margin="10,52,0,0" Stroke="Black" VerticalAlignment="Top" Width="773"/>
+
+        <Label Content="Registration Value:" FontSize="18" HorizontalAlignment="Left" Margin="35,52,0,0" VerticalAlignment="Top" Height="33" Width="198"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="134" Margin="10,120,0,0" Stroke="Black" VerticalAlignment="Top" Width="773"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="126" Margin="10,259,0,0" Stroke="Black" VerticalAlignment="Top" Width="773"/>
+        <Label Content="C# DLL" FontSize="18" HorizontalAlignment="Left" Margin="35,120,0,0" VerticalAlignment="Top" Width="117"/>
+        <Label Content="Value1:" FontSize="18" HorizontalAlignment="Left" Margin="35,188,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="Value1" FontSize="18" HorizontalAlignment="Left" Height="23" Margin="113,192,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button Name="CsharpA" Content="Add" Click="CsharpA_Click" HorizontalAlignment="Left" Margin="45,164,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Name="CsharpS" Content="Substract" Click="CsharpS_Click" HorizontalAlignment="Left" Margin="158,164,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Name="CsharpM" Content="Multiply" Click="CsharpM_Click" HorizontalAlignment="Left" Margin="276,164,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Name="CsharpD" Content="Divide" Click="CsharpD_Click" HorizontalAlignment="Left" Margin="403,164,0,0" VerticalAlignment="Top" Width="75"/>
+        <Label Name="CsharpOpetion" Content="Do" FontSize="18" HorizontalAlignment="Left" Margin="254,188,0,0" VerticalAlignment="Top"/>
+        <Label Content="Value2:" FontSize="18" HorizontalAlignment="Left" Margin="324,187,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="Value2" HorizontalAlignment="Left" FontSize="18" Height="23" Margin="403,192,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Result:" FontSize="18" HorizontalAlignment="Left" Margin="549,186,0,0" VerticalAlignment="Top"/>
+        <Label Name="CsharpResult" Content="0" FontSize="18" HorizontalAlignment="Left" Margin="621,187,0,0" VerticalAlignment="Top"/>
+        <Label Content="Cpp DLL" FontSize="18" HorizontalAlignment="Left" Margin="35,259,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="CppA" Content="Add" Click="CppA_Click" HorizontalAlignment="Left" Margin="45,303,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="CppS" Content="Substract" Click="CppS_Click" HorizontalAlignment="Left" Margin="158,303,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="CppM" Content="Multiply" Click="CppM_Click" HorizontalAlignment="Left" Margin="276,303,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="CppD" Content="Divide" Click="CppD_Click" HorizontalAlignment="Left" Margin="403,303,0,0" VerticalAlignment="Top" Width="75"/>
+        <Label Content="Value3:" FontSize="18" HorizontalAlignment="Left" Margin="35,327,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="Value3" FontSize="18" HorizontalAlignment="Left" Height="23" Margin="113,331,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="CppOpetion" Content="Do" FontSize="18" HorizontalAlignment="Left" Margin="254,327,0,0" VerticalAlignment="Top"/>
+        <Label Content="Value4:" FontSize="18" HorizontalAlignment="Left" Margin="324,326,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="Value4" HorizontalAlignment="Left" FontSize="18" Height="23" Margin="403,331,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Result:" FontSize="18" HorizontalAlignment="Left" Margin="549,325,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="CppResult" Content="0" FontSize="18" HorizontalAlignment="Left" Margin="621,326,0,0" VerticalAlignment="Top"/>
+        <Label Content="Reg Value: "  FontSize="18" HorizontalAlignment="Left" Margin="35,85,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="Reg_Text"  FontSize="18" HorizontalAlignment="Left" Height="23" Margin="147,92,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="250"/>
+        <Button Name="Reg_Change" Click="Reg_Change_Click" FontSize="16" Content="Change" HorizontalAlignment="Left" Margin="448,91,0,0" VerticalAlignment="Top" Width="75"/>
+        <Label Name="Reg_Value" Content="0" FontSize="18" HorizontalAlignment="Left" Margin="233,54,0,0" VerticalAlignment="Top"/>
+        <Button Name="btn_Exit" Click="Btn_Exit_Click" Content="Exit" HorizontalAlignment="Left" Margin="708,10,0,0" VerticalAlignment="Top" Width="75"/>
+
+    </Grid>
+</Window>

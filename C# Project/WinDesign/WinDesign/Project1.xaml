@@ -1,0 +1,47 @@
+﻿<Window x:Class="WinDesign.Project1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WinDesign"
+        mc:Ignorable="d"
+        Title="Project1" Height="450" Width="800">
+    <Grid>
+        <Grid>
+            <Grid Name="Project1" HorizontalAlignment="Left" Height="311" Margin="31,79,0,0" VerticalAlignment="Top" Width="733" Background="#FFB0E7E5">
+                <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="RegistryOperation" VerticalAlignment="Top"/>
+                <Label Name="Project1_Version" Content="Key:" HorizontalAlignment="Left" Margin="163,70,0,0" VerticalAlignment="Top"/>
+                <Label Content="New Version:" HorizontalAlignment="Left" Margin="74,104,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.529,1.434"/>
+                <TextBox x:Name="Project1_NewVersion" HorizontalAlignment="Left" Height="23" Margin="163,106,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+                <Button x:Name="Project1_Change" Click="Project1_Change_Click" Content="Delete" HorizontalAlignment="Left" Margin="288,108,0,0" VerticalAlignment="Top" Width="75" Background="#FFB9D5FB"/>
+                <Label Content="C++.DLL" HorizontalAlignment="Left" Margin="10,162,0,0" VerticalAlignment="Top"/>
+                <Label Content="C#.DLL" HorizontalAlignment="Left" Margin="10,223,0,0" VerticalAlignment="Top"/>
+                <Label Content="Value1:" HorizontalAlignment="Left" Margin="74,193,0,0" VerticalAlignment="Top"/>
+                <TextBox x:Name="Project1_Value1" HorizontalAlignment="Left" Height="23" Margin="131,196,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+                <ComboBox   x:Name="Project1_C2Plus" SelectionChanged="Project1_C2Plus_SelectionChanged" HorizontalAlignment="Left" Margin="288,197,0,0" VerticalAlignment="Top" Width="35" RenderTransformOrigin="0.876,0.484">
+                    <ComboBoxItem Content="+" HorizontalAlignment="Left" Width="35"/>
+                    <ComboBoxItem Content="-" HorizontalAlignment="Left" Width="35"/>
+                    <ComboBoxItem Content="*" HorizontalAlignment="Left" Width="35"/>
+                    <ComboBoxItem Content="/" HorizontalAlignment="Left" Width="35"/>
+                </ComboBox>
+                <TextBox x:Name="Project1_Value2" HorizontalAlignment="Left" Height="23" Margin="398,196,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+                <Label Content="Value2:" HorizontalAlignment="Left" Margin="341,196,0,0" VerticalAlignment="Top"/>
+                <Label Content="=" HorizontalAlignment="Left" Margin="546,194,0,0" VerticalAlignment="Top"/>
+                <Label x:Name="Project1_Result1" Content="NULL" HorizontalAlignment="Left" Margin="603,193,0,0" VerticalAlignment="Top"/>
+                <Label Content="Value3:" HorizontalAlignment="Left" Margin="74,255,0,0" VerticalAlignment="Top"/>
+                <TextBox x:Name="Project1_Value3" HorizontalAlignment="Left" Height="23" Margin="131,255,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+                <ComboBox x:Name="Project1_Csharp" SelectionChanged="Project1_Csharp_SelectionChanged" HorizontalAlignment="Left" Margin="288,255,0,0" VerticalAlignment="Top" Width="35">
+                    <ComboBoxItem Content="+" HorizontalAlignment="Left" Width="35"/>
+                    <ComboBoxItem Content="-" HorizontalAlignment="Left" Width="35"/>
+                    <ComboBoxItem Content="*" HorizontalAlignment="Left" Width="35"/>
+                    <ComboBoxItem Content="/" HorizontalAlignment="Left" Width="35"/>
+                </ComboBox>
+                <Label Content="Value4:" HorizontalAlignment="Left" Margin="341,251,0,0" VerticalAlignment="Top"/>
+                <TextBox x:Name="Project1_Value4" HorizontalAlignment="Left" Height="23" Margin="398,253,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+                <Label Content="=" HorizontalAlignment="Left" Margin="546,251,0,0" VerticalAlignment="Top"/>
+                <Label x:Name="Project1_Result2" Content="NULL" HorizontalAlignment="Left" Margin="603,251,0,0" VerticalAlignment="Top"/>
+                <Label Content="Version:" HorizontalAlignment="Left" Margin="73,70,0,0" VerticalAlignment="Top"/>
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>

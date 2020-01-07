@@ -1,0 +1,30 @@
+﻿<Window x:Class="DBWinWork.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DBWinWork"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <DataGrid Name="dtg_Data" Loaded="Dtg_Data_Loaded" HorizontalAlignment="Left" Height="189" Margin="10,204,0,0" VerticalAlignment="Top" Width="773"/>
+        <Button Name="btn_Add" Click="Btn_Add_Click" Content="Add" FontSize="18" HorizontalAlignment="Left" Margin="10,35,0,0" VerticalAlignment="Top" Height="27" Width="70"/>
+        <Button Name="btn_Get" Click="Btn_Get_Click" Content="Get" FontSize="18" HorizontalAlignment="Left" Margin="10,72,0,0" VerticalAlignment="Top" Height="28" Width="70"/>
+        <Button Name="btn_Change" Click="Btn_Change_Click" Content="Change" FontSize="18" HorizontalAlignment="Left" Margin="10,133,0,0" VerticalAlignment="Top" Height="28"/>
+        <Button Name="btn_Delete" Click="Btn_Delete_Click" Content="Delete" FontSize="18" HorizontalAlignment="Left" Margin="11,166,0,0" VerticalAlignment="Top" Height="33" Width="69"/>
+        <Label Content="User Info:" FontSize="18" HorizontalAlignment="Left" Margin="11,100,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="txb_AddUserName" FontSize="18" HorizontalAlignment="Left" Height="32" Margin="135,35,0,0" TextWrapping="Wrap" Text="Name" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="txb_AddUserAge" HorizontalAlignment="Left" FontSize="18" Height="32" Margin="260,36,0,0" TextWrapping="Wrap" Text="Age" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="txb_GetUserId" HorizontalAlignment="Left" FontSize="18" Height="28" Margin="135,72,0,0" TextWrapping="Wrap" Text="Id" VerticalAlignment="Top" Width="120"/>
+        <Label Name="lb_UserInfo" FontSize="18" Content="" HorizontalAlignment="Left" Margin="135,100,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="txb_ChangeUserId" FontSize="18" HorizontalAlignment="Left" Height="28" Margin="135,133,0,0" TextWrapping="Wrap" Text="Id" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="txb_ChangeUserName" FontSize="18" HorizontalAlignment="Left" Height="28" Margin="260,133,0,0" TextWrapping="Wrap" Text="Name" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="txb_ChangeUserAge" FontSize="18" HorizontalAlignment="Left" Height="28" Margin="385,133,0,0" TextWrapping="Wrap" Text="Age" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="txb_DeleteUserId" FontSize="18" HorizontalAlignment="Left" Height="31" Margin="135,166,0,0" TextWrapping="Wrap" Text="Id" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="txb_AddUserPhone" HorizontalAlignment="Left" FontSize="18" Height="32" Margin="385,36,0,0" TextWrapping="Wrap" Text="Phone" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="txb_AddUserAddress" HorizontalAlignment="Left" FontSize="18" Height="32" Margin="510,35,0,0" TextWrapping="Wrap" Text="Address" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="txb_ChangeUserPhone" HorizontalAlignment="Left" FontSize="18" Height="28" Margin="510,133,0,0" TextWrapping="Wrap" Text="Phone" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txb_ChangeUserAddress" HorizontalAlignment="Left" FontSize="18" Height="28" Margin="635,133,0,0" TextWrapping="Wrap" Text="Address" VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Window>
